@@ -1,0 +1,40 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.tgz
+
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Compiled files
+*.o
+*.so
+*.out
+*.a
+*.exe
+
+# Dependency directories
+node_modules/
+vendor/
+dist/
+build/
+.cache/
+
+# Version control folders
+.git/
+gitno/
+
+# Ignore all PDF files inside any 'manuals' folder
+*/manuals/**/*.pdf
